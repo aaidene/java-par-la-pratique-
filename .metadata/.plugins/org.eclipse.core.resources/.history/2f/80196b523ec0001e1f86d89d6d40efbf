@@ -1,0 +1,44 @@
+package fr.gretta.tp2.metier;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import fr.greta.tp2.entity.Personne;
+
+public class PersonneMetier {
+	
+	private static List<Personne> personnes = new ArrayList<Personne>();
+	
+	
+	public PersonneMetier() {
+	
+	}
+
+	
+	
+	public static List<Personne> getPersonnes() {
+		return personnes;
+	}
+
+
+
+	public static void setPersonnes(List<Personne> personnes) {
+		PersonneMetier.personnes = personnes;
+	}
+
+
+
+	public void addPersonne(Personne personne) {
+		personne.setNom(personne.getNom().trim().toUpperCase());
+		personnes.add(personne);
+		
+        
+    }
+
+
+	
+	
+	
+	
+
+}

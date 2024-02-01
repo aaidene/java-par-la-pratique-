@@ -1,0 +1,9 @@
+package fr.greta.tp2.entity;
+
+public class Snippet {
+	public static void main(String[] args) {
+		
+		test234555
+	}
+}
+

@@ -1,0 +1,18 @@
+
+package fr.greta.tp;
+
+public class Factorielle {
+    public static void main(String[] args) {
+    	
+    	getFactorial(5);
+    }
+
+    public static int getFactorial(int f) {
+    	  int result = 1;
+    	  for (int i = 1; i <= f; i++) {
+    	     result = result * i; // finding factorial of number using loops
+    	  }
+    	  return result;
+    	}
+   
+}

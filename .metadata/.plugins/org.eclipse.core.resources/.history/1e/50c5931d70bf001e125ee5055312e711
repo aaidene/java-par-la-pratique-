@@ -1,0 +1,37 @@
+package fr.greta.tp;
+
+public class Factorielle {
+
+	public static void main(String[] args) {
+	
+	        if (args.length != 1) {
+	            System.out.println("Usage: java FactoriellesWhile <N>");
+	            System.exit(1);
+	        }
+
+	        int N = Integer.parseInt(args[0]);
+	        int i = 1;
+
+	        System.out.println("Affichage des factorielles avec une boucle while :");
+	        while (i <= N) {
+	            long factorielle = calculerFactorielle(i);
+	            System.out.println(i + "! = " + factorielle);
+	            i++;
+	        }
+	    }
+
+	 
+	    private static long calculerFactorielle(int n) {
+	        if (n == 0 || n == 1) {
+	            return 1;
+	        }
+	        long result = 1;
+	        for (int i = 2; i <= n; i++) {
+	            result *= i;
+	        }
+	        return result;
+	    }
+
+	}
+
+}

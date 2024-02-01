@@ -1,0 +1,16 @@
+package fr.gretta.tp2.metier;
+
+import fr.greta.tp2.entity.Personne;
+
+public class PersonneMetier {
+	
+	
+	public void addPersonne(Personne personne) {
+		
+		
+	}
+	
+	
+	
+
+}

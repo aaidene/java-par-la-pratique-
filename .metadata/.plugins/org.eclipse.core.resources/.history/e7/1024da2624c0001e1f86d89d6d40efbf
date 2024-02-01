@@ -1,0 +1,13 @@
+
+public class Personne2 {
+
+	  
+	private String nom;
+	private String prenom;
+	private int age;
+	
+	public Personne2() {}
+	
+	
+	
+}
