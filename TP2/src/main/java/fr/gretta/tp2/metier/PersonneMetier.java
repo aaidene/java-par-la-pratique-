@@ -78,6 +78,12 @@ public class PersonneMetier {
 		return personnesDeLaVille;
 	}
 	
+public static List<Personne> getPersonneAge() {
+		
+		List<Personne> personnesAgeSuperieur = new ArrayList<>();
+
+		return personnes.stream().filter(p ->p.getAge()>60).collect(Collectors.toList());
+	}
 	
 	
 	

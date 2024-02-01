@@ -1,5 +1,7 @@
 package fr.gretta.main;
 
+import java.util.List;
+
 import fr.gretta.tp2.entity.Adresse;
 import fr.gretta.tp2.entity.Personne;
 import fr.gretta.tp2.metier.PersonneMetier;
@@ -25,9 +27,19 @@ public class MainGetPersonnesOfVille {
 		p2.getAdresses().add(a4);
 		
 		PersonneMetier.addPersonne(p2);
+
 		
 		// afficher le nom et prénom des personnes qui habitent la ville de Paris
 		// appeler la méthode getPersonnesOfVille("Paris")
+		
+		
+
+		List<Personne> personnes = PersonneMetier.getPersonnesOfVille("Paris");
+        
+		for (Personne p : personnes) {
+			System.out.println(p);
+			
+		}
 	}
 
 }

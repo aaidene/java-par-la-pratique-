@@ -39,10 +39,16 @@ public class MainGetPersonneOfVille {
 		List<Personne> personnes = PersonneMetier.getPersonneOfVille("Paris");
         
 		for (Personne p : personnes) {
-			System.out.println(p);
+			//System.out.println(p);
 			
 		}
 		
+      List<Personne> personnesAge = PersonneMetier.getPersonneAge();
+        
+		for (Personne p : personnes) {
+			System.out.println(p.getNom());
+			
+		}
 		
 	
 		

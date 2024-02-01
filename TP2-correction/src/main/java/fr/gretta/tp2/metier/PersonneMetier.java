@@ -3,6 +3,7 @@ package fr.gretta.tp2.metier;
 import java.util.ArrayList;
 import java.util.List;
 
+import fr.gretta.tp2.entity.Adresse;
 import fr.gretta.tp2.entity.Personne;
 
 public class PersonneMetier {
@@ -20,9 +21,25 @@ public class PersonneMetier {
 		personnes.add(personne);
 	}
 
+	
+	
 	public static List<Personne> getPersonnesOfVille(String ville) {
-		// TODO
-		return null;
+		List<Personne> personnesDeLaVille = new ArrayList<>();
+		
+		for (Personne p : personnes) {
+			for (Adresse a : p.getAdresses()) {
+				if(a.getVille().equalsIgnoreCase(ville)) {
+					
+					personnesDeLaVille.add(p);
+				}
+				
+				
+			}
+			
+		}
+		
+		
+		return personnesDeLaVille;
 	}
 	
 	public static List<Personne> getPersonnes() {
