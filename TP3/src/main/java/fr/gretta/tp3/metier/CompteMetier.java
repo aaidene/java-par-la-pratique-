@@ -18,6 +18,8 @@ public class CompteMetier {
         comptes.add(compte);
     }
 
+    
+    
     public static void afficherSoldes(List<Client> clients) {
         for (Client client : clients) {
             System.out.println("Client : " + client.getNom() + " " + client.getPrenom());
@@ -27,6 +29,8 @@ public class CompteMetier {
             }
         }
     }
+    
+    
     public static List<Compte> bouclerComptes(List<Client> clients) {
         List<Compte> comptesBoucles = new ArrayList<>();
 
@@ -41,8 +45,8 @@ public class CompteMetier {
     }
     
       
-    
-    
+    // ajouter une fonction qui recupéere comme debiteur 
+  
     public static List<Compte> getComptes() {
         return comptes;
     }

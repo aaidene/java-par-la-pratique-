@@ -21,7 +21,6 @@ public class Client {
 	public Client(String nom, String prenom) {
         this.nom = nom;
         this.prenom = prenom;
-        this.comptes = new ArrayList<Compte>();
        
     }
 
@@ -43,7 +42,6 @@ public class Client {
 
 
 
-
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
@@ -56,18 +54,7 @@ public class Client {
 
 
 
-	public void setComptes(List<Compte> comptes) {
-		this.comptes = comptes;
-	}
-
-
-
-	public Client(String nom, String prenom, List<Compte> comptes) {
-		super();
-		this.nom = nom;
-		this.prenom = prenom;
-		this.comptes = comptes;
-	}
+	
 
 	@Override
 	public String toString() {

@@ -28,8 +28,7 @@ public class ClientMetier {
 	}
 	
 
-   
-	
+  
 		public static List<Client> getClient() {
 			return clients;
 		}
