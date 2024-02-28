@@ -26,8 +26,6 @@ public class Main {
         vehicules.add(al);
         vehicules.add(a2);
 
-        Calendar calendar = Calendar.getInstance();
-
         for (Vehicule v : vehicules) {
             v.calculerPrix();
             v.afficher();

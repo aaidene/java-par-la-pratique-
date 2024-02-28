@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="fr.greta.tp2.entity.Adresse"/>
     <fullyQualifiedTypeName name="fr.gretta.tp2.metier.PersonneMetier"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="fr.greta.tp2.entity.Personne"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="fr.gretta.tp2.entity.Adresse"/>
+    <fullyQualifiedTypeName name="fr.gretta.tp3.entity.Vehicule"/>
+    <fullyQualifiedTypeName name="java.time.Year"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="fr.gretta.tp3.entity.Avion"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="java.net.InterfaceAddress"/>
+    <fullyQualifiedTypeName name="com.greta.LaBoutique.Model.Produit"/>
+    <fullyQualifiedTypeName name="com.greta.service.ProduitService"/>
+    <fullyQualifiedTypeName name="fr.greta.heritage.metier.Animal"/>
+    <fullyQualifiedTypeName name="fr.greta.heritage.metier.Loup"/>
+    <fullyQualifiedTypeName name="fr.greta.heritage.metier.Lion"/>
+    <fullyQualifiedTypeName name="fr.greta.heritage.metier.Tigre"/>
+    <fullyQualifiedTypeName name="fr.greta.heritage.metier.IRintintin"/>
+    <fullyQualifiedTypeName name="fr.greta.heritage.metier.Chien"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="fr.greta.heritage.metier.Personnel"/>
 </qualifiedTypeNameHistroy>
