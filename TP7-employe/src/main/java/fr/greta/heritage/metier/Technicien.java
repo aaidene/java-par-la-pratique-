@@ -16,8 +16,7 @@ public  class Technicien extends Employe {
 
 	}
     
-    
-    
+   
 
     public int getUnites() {
         return unites;
