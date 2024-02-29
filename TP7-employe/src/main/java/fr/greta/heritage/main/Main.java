@@ -1,6 +1,5 @@
 package fr.greta.heritage.main;
 
-
 import fr.doranco.hibernate.utils.Dates;
 import fr.greta.heritage.metier.ManutARisque;
 import fr.greta.heritage.metier.Manutentionnaire;
@@ -15,12 +14,9 @@ public class Main {
 
 	public static void main(String[] args) {
 
-	      
-		
+	      	
 	    Personnel p = new Personnel();
           
- 
-		
 		Vendeur v = new Vendeur("CAMUS", "Albert", 45, Dates.convertStringToDate("23/11/2012"));
 	     v.setChiffreAffaire(10000.0f);	
 		p.ajouterEmploye(v);

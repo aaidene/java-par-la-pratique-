@@ -2,7 +2,7 @@ package fr.greta.heritage.metier;
 
 import java.util.Date;
 
-public class TechnARisque extends Technicien implements IARisque {
+public class TechnARisque extends Technicien implements ISalaire {
     
 	
 	public TechnARisque() {
@@ -15,13 +15,19 @@ public class TechnARisque extends Technicien implements IARisque {
 		
 	}
 
-
+/*
 	@Override
     public double calculerSalaire() {
         return (getUnites() * 5)+PRIME;
     }
 
-  
+  */
+	// une autre methode
+	//Avantage meme si on change la classe mere elle le prend on consédération
+	@Override
+    public double calculerSalaire() {
+        return super.calculerSalaire()+PRIME_MANUTENTIONNAIRE;
+    }
 
 	@Override
 	public String getInfosEmploye() {

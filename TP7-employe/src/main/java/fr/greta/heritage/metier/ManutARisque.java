@@ -2,7 +2,7 @@ package fr.greta.heritage.metier;
 
 import java.util.Date;
 
-public class ManutARisque extends Manutentionnaire implements IARisque {
+public class ManutARisque extends Manutentionnaire implements ISalaire {
     public ManutARisque() {
    
     }
@@ -20,7 +20,7 @@ public class ManutARisque extends Manutentionnaire implements IARisque {
 
 	@Override
     public double calculerSalaire() {
-        return (getHeures() * 65)+PRIME;
+        return (getHeures() * 65)+PRIME_MANUTENTIONNAIRE;
     }
 
    

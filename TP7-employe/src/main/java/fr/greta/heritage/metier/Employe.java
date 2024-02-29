@@ -4,9 +4,11 @@ import java.util.Date;
 
 public abstract class Employe extends Personnel {
 
+	
+	
 	protected String nom;
 	protected String prenom;
-	protected int age;
+	protected int age; // byte est largement 
 	protected Date dateEntree;
 
 	protected Employe() {
@@ -20,7 +22,20 @@ public abstract class Employe extends Personnel {
 		this.dateEntree = dateEntree;
 	}
 
+	
+	// on public pour pouvoir les appeler dans uml c'est #
+	// on met float c'es laregment sufsant 
 	public abstract double calculerSalaire();
 
-	public abstract String getInfosEmploye();
+	
+
+    // On on ajoute pour pouvoir recupéré les informations des parametres 
+	public String getInfosEmploye() {
+		return "Employe [nom=" + nom + ", prenom=" + prenom + ", age=" + age + ", dateEntree=" + dateEntree + "]";
+	}
+	
+	
+	
+	
+	
 }

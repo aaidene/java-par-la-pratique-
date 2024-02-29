@@ -9,6 +9,14 @@ public abstract class Commercial extends Employe {
 	protected Commercial() {
 		super();
 	}
+   
+	
+
+	public Commercial(String nom, String prenom, int age, Date dateEntree ) {
+		super(nom, prenom, age, dateEntree);
+		
+	
+	}
 
 	public double getChiffreAffaire() {
 		return chiffreAffaire;
@@ -18,10 +26,9 @@ public abstract class Commercial extends Employe {
 		this.chiffreAffaire = chiffreAffaire;
 	}
 
-	protected Commercial(String nom, String prenom, int age, Date dateEntree) {
-		super(nom, prenom, age, dateEntree);
-	}
-
+	
 	public abstract String getInfosEmploye();
+	
+	
 
 }

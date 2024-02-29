@@ -2,7 +2,7 @@ package fr.greta.heritage.metier;
 
 import java.util.Date;
 
-public class Representant extends Commercial {
+public class Representant extends Commercial implements ISalaire {
     public Representant() {
      
     }
@@ -16,7 +16,7 @@ public class Representant extends Commercial {
 
 	@Override
     public double calculerSalaire() {
-        return 0.2 * chiffreAffaire + 800;
+        return 0.2 * chiffreAffaire + PRIME_REPRESENTANT;
     }
 	
 

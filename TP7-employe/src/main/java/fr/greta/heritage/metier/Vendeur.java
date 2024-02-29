@@ -2,23 +2,22 @@ package fr.greta.heritage.metier;
 
 import java.util.Date;
 
-public class Vendeur extends Commercial {
-
+public class Vendeur extends Commercial  implements ISalaire{
 
 	
-	public Vendeur() {
-		super();
-	}
-
+	
 	public Vendeur(String nom, String prenom, int age, Date dateEntree) {
 		super(nom, prenom, age, dateEntree);
+	
 	}
-	
-	
      
+	public Vendeur() {
+
+	}
+
 	@Override
 	public double calculerSalaire() {
-		return 0.2 * chiffreAffaire + 400;
+		return 0.2 * chiffreAffaire + PRIME_VENDEUR;
 	}
 
 	@Override
